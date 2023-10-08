@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forms And Input Tags</title>
+</head>
+
+<body>
+  <form action="/action.php">
+  <label for="username">Enter Your Username</label>
+  <input type="text" name="username" id="username" placeholder="Enter Your Username Here">
+  <br>
+  <input type="radio" name="fav-languages" id="html">
+  <label for="html">HTML</label>
+  <input type="radio" name="fav-languages" id="css">
+  <label for="css">CSS</label>
+  <input type="radio" name="fav-languages" id="js">
+  <label for="js">JavaScript</label>
+  <br>
+  <label for="fav-fruit">Select Your Favourite Fruit</label><br>
+  <select name="fav-fruit" id="fav-fruit">
+    <option value="Apple">Apple</option>
+    <option value="Banana">Banana</option>
+    <option value="Mango">Mango</option>
+    <option value="Cherry">Cherry</option>
+  </select>
+    <br>
+    <input type="checkbox" name="pass-time" id="bike">
+    <label for="bike">I Have A Bike</label><br>
+    <input type="checkbox" name="pass-time" id="cycle">
+    <label for="cycle">I Have A Cycle</label><br>
+    <input type="checkbox" name="pass-time" id="car">
+    <label for="car">I Have A Car</label><br>
+    <label for="comment">Your Comment:</label>
+    <textarea name="comments" id="comments" cols="30" rows="10">
+      Enter Your Comments Here.....
+    </textarea><br>
+    <input type="submit" value="Submit" name="submit" id="submit">
+  </form>
+</body>
+
+</html>
